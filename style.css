@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: #1b1b1b;
+}
+.top-container{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+.top-title{
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 25vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.top-title img{
+    width: 250px;
+    height: 250px;
+    margin-top: 39px;
+    margin-right: 10px;
+}
+.top-title h1{
+    font-size: 150px;
+}
+.top-title h2{
+    font-size: 32px;
+}
+.arrow-container{
+    text-align: center;
+}
+.arrow-container img{
+    margin: 6vh;
+}
+.arrow-container p{
+    color: #fff;
+}
+.fixed-menu{
+    position: fixed;
+    z-index: 10000;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+    width: 920px;
+    height: 65px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 50px;
+}
+.fixed-menu-left{
+    margin-left: 40px;
+}
+.fixed-menu p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.fixed-menu-time{
+    margin: 6.5px 30px 6.5px 20px;
+}
+.fixed-menu-time p{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.fixed-menu img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.fixed-menu-location-image{
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.fixed-menu-location{
+    margin-right: 25px;
+}
+.fixed-menu-sns{
+    margin-left: 15px;
+}
+.fixed-menu-sns-image{
+    margin-left: 10px;
+}
+.top-line{
+    width: 100vw;
+    height: 30px;
+    border-top: solid 4px #fff;
+    border-bottom: solid 4px #fff;
+    margin-top: 30vh;
+}
+.news-container{
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+.news-container h2{
+    font-size: 96px;
+    margin-top: 100px;
+}
+.news-block-container{
+    margin-top: 50px;
+}
+.news-block{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+    border-bottom: solid 2px #fff;
+    display: flex;
+    font-size: 1.3vw;
+}
+.news-date{
+    margin: 1vw 2vw;
+}
+.news-tab{
+    width: 6.2vw;
+    border-radius: 30px;
+    margin: 1vw 2vw;
+}
+/* ここにタブクラス名を追加 */
+.shinkan{
+    background-color: #FF91D1;
+}
+.event{
+    background-color: #58B1E4;
+}
+/* ここまで */
+.news-sentence{
+    margin: 1vw 1vw;
+}
+.features-container{
+    margin-top: 200px;
+}
+.features-container{
+    background-image: url(images/mori.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.fetures-block-container{
+    position: relative;
+    width: 570px;
+    height: 1818px;
+    background-color: #fff;
+    margin-top: 100vh;
+    margin-bottom: 40vh;
+    border-radius: 400px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+.ferures-block-line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 520px;
+    height: 1757px;
+    border-radius: 400px;
+    border: solid 2px #1b1b1b;
+    text-align: center;
+}
+.ferures-block-line h3{
+    color: #1b1b1b;
+    margin-top: 100px;
+    font-size: 36px;
+}
+.ferures-block-line h4{
+    padding-top: 50px;
+    font-size: 22px;
+}
+.ferures-block-line p{
+    padding: 25px 50px;
+}
+.events-container{
+    color: #fff;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    text-align: center;
+}
+.events-container h2{
+    font-size: 64px;
+    margin-top: 200px;
+}
+.events-container p{
+    margin-top: 50px;
+}
+.instagram-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 328px);
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 70px;
+}
+.instagram-content{
+    width: 328px;
+}
+.location-container{
+    color: #fff;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    text-align: center;
+}
+.location-container h2{
+    font-size: 64px;
+    margin-top: 200px;
+}
+.location-sentence{
+    margin-top: 50px;
+}
+.location-detail-container {
+    display: flex;
+    flex-wrap: wrap; /* ← スマホなどで折り返し */
+    justify-content: center;
+    gap: 40px;
+    padding: 70px 20px;
+    box-sizing: border-box;
+}
+.mejirodai-container,
+.nishitoyama-container {
+    width: min(500px, 90vw); 
+    position: relative;
+}
+.location-detail-container img {
+    width: 100%;
+    height: auto;
+    border: solid 7px #fff;
+    box-sizing: border-box;
+}
+.location-detail-container h4{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 26px;
+}
+.waseda-station,
+.location-trains-container{
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    width: 100%;
+}
+.location-trains-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    top: 255px;
+}
+.location-trains{
+    font-size: 15px;
+    text-align: end;
+    padding-right: 25px;
+}
+.google-map{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.google-map {
+    width: 100%;
+    padding-top: 81.4%; /* アスペクト比（高さ / 幅） × 100%。430x350 → 約81.4% */
+    margin-top: 20px;
+    border: none;
+}
+.google-map iframe {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 90%;
+    border: 0;
+}
+footer{
+    background-image: url(images/back.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    position: relative;
+}
+.footer-logo{
+    position: absolute;
+    top: 12vh;
+    left: 9vw;
+}
+.footer-logo h2{
+    font-size: 110px;
+    color: #fff;
+}
+.footer-entry{
+    width: 380px;
+    height: 65px;
+    background-color: #fff;
+    color: #1b1b1b;
+    font-size: 24px;
+    font-weight: 550;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 1vw;
+    position: relative;
+}
+.footer-entry p{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 100%;
+}
+.return-top{
+    position: absolute;
+    top: 18vh;
+    right: 10vw;
+}
+.return-top img{
+    width: 10vw;
+    height: 10vw;
+}
+  

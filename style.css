@@ -78,6 +78,9 @@ body{
 .fixed-menu-location{
     margin-right: 25px;
 }
+.fixed-menu-location-sp{
+    display: none;
+}
 .fixed-menu-sns{
     margin-left: 15px;
 }
@@ -120,6 +123,9 @@ body{
     width: 6.2vw;
     border-radius: 30px;
     margin: 1vw 2vw;
+}
+.news-sp-flex{
+    display: flex;
 }
 /* ここにタブクラス名を追加 */
 .shinkan{
@@ -177,6 +183,9 @@ body{
 .ferures-block-line p{
     padding: 25px 50px;
 }
+.sp-br{
+    display: none;
+}
 .events-container{
     color: #fff;
     font-family: "Zen Kaku Gothic New", sans-serif;
@@ -214,7 +223,7 @@ body{
 }
 .location-detail-container {
     display: flex;
-    flex-wrap: wrap; /* ← スマホなどで折り返し */
+    flex-wrap: wrap; 
     justify-content: center;
     gap: 40px;
     padding: 70px 20px;
@@ -266,7 +275,7 @@ body{
 }
 .google-map {
     width: 100%;
-    padding-top: 81.4%; /* アスペクト比（高さ / 幅） × 100%。430x350 → 約81.4% */
+    padding-top: 81.4%;
     margin-top: 20px;
     border: none;
 }
@@ -326,4 +335,188 @@ footer{
     width: 10vw;
     height: 10vw;
 }
-  
+@media (max-width:500px){
+    .top-title{
+        margin-top: 35vh;
+    }
+    .top-title img{
+        width: 111px;
+        height: 111px;
+        margin-top: 9px;
+        margin-right: 0px;
+    }
+    .top-title h1{
+        font-size: 60px;
+    }
+    .top-title h2{
+        font-size: 12px;
+    }
+    .arrow-container img{
+        margin: 3vh;
+    }
+    .fixed-menu{
+        width: 320px;
+        height: 60px;
+    }
+    .fixed-menu-left{
+        margin-left: 15px;
+        width: 50px;
+    }
+    .fixed-menu-left span{
+        display: none;
+    }
+    .fixed-menu p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .fixed-menu-time{
+        margin: 13px 10px 6.5px 10px;
+    }
+    .fixed-menu-time p{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .fixed-menu-location{
+        display: none;
+    }
+    .fixed-menu-location-image{
+        margin-left: 8px;
+        margin-right: 0px;
+    }
+    .fixed-menu-location-sp{
+        display: block;
+        margin-left: 5px;
+        margin-right: 8px;
+        font-size: 14px;
+    }
+    .fixed-menu-sns{
+        display: none;
+    }
+    .fixed-menu img{
+        width: 35px;
+        height: 35px;
+        margin-top: 12px;
+    }
+    .top-line{
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        height: 20px;
+    }
+    .news-container h2{
+        font-size: 48px;
+        margin-top: 80px;
+    }
+    .news-block{
+        width: 90vw;
+        font-size: 15px;
+    }
+    .news-date{
+        padding-top: 7px;
+        margin: 0;
+    }
+    .news-tab{
+        width: 55px;
+        font-size: 12px;
+    }
+    .news-sentence{
+        padding-top: 7px;
+        padding-left: 15px;
+        width: 80%;
+        text-align: left;
+    }
+    .news-sp-flex{
+        display: block;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    .features-container{
+        margin-top: 200px;
+        background-color: #1b1b1b;
+        background-image: none;
+    }
+    .fetures-block-container{
+        width: 90vw;
+        height: 464vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .ferures-block-line{
+        width: 87vw;
+        height: 460vw;
+    }
+    .ferures-block-line h3{
+        font-size: 24px;
+    }
+    .ferures-block-line h4{
+        font-size: 16px;
+    }
+    .ferures-block-line p{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .sp-br{
+        display: block;
+    }
+    .events-container h2{
+        font-size: 48px;
+        margin-top: 200px;
+    }
+    .events-container p{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .instagram-container{
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+    .sp-none{
+        display: none;
+    }
+    .location-container h2{
+        font-size: 48px;
+        margin-top: 100px;
+    }
+    .location-sentence{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .location-detail-container {
+        padding: 40px 0px;
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+    .location-detail-container h4{
+        font-size: 24px;
+        top: 110px;
+    }
+    .waseda-station,
+    .location-trains-container{
+        font-size: 15px;
+        top: 200px;
+    }
+    .location-trains{
+        font-size: 12px;
+        text-align: end;
+        padding-right: 20px;
+    }
+    .footer-logo h2{
+        font-size: 64px;
+    }
+    .footer-entry{
+        width: 213px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .footer-entry p{
+        width: 100%;
+    }
+    .return-top img{
+        width: 30vw;
+        height: 30vw;
+    }
+    .return-top{
+        top: 70vh;
+        right: 9vw;
+    }
+}
+

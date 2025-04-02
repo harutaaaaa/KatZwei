@@ -123,6 +123,7 @@ body{
 }
 .news-date{
     margin: 1vw 2vw;
+    font-size: 1.2vw;
 }
 .news-tab{
     width: 6.2vw;
@@ -434,6 +435,7 @@ footer{
         padding-top: 10px;
         margin: 0;
         width: 100%;
+        font-size: 15px;
     }
     .news-tab{
         width: 70px;
@@ -537,6 +539,7 @@ footer{
     .news-date{
         padding-top: 7px;
         margin: 0;
+        font-size: 14px;
     }
     .news-tab{
         width: 55px;
